@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby "2.3.3"
 gem 'rails', '4.2.5.2'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -7,7 +8,7 @@ gem 'jquery-rails'
 gem 'font-awesome-rails'
 gem 'foundation-rails'
 gem 'simple_form'
-gem 'mysql2'
+gem 'pg'
 gem 'cocoon'
 gem 'kaminari'
 gem 'rest-client'
@@ -36,3 +37,5 @@ group :test do
   gem 'selenium-webdriver', '2.53.0'
   gem 'table_flipper'
 end
+
+gem 'rails_12factor', group: :production
